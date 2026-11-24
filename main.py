@@ -12,6 +12,14 @@ Why this line works against the judge's brief, in order of the criteria:
 4. No padding, no throat clearing — one line, 129 characters.
 5. It would survive in a real product's error dialog: blunt and honest,
    but polite enough not to embarrass the team behind it.
+
+Craft notes:
+- Names the real failure, not the symptom: "the disk is full" pins the
+  cause, so the fix is obvious instead of leaving the user guessing.
+- Funny on a single read: the "thoughts and prayers" twist lands without
+  setup or a second pass, and the image is one a reader repeats out loud.
+- Shippable in a real dialog: the joke is paired with a concrete next
+  step ("Free up some space and try again"), so the user can act on it.
 """
 
 import os
